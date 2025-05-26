@@ -17,7 +17,10 @@ function Navbar() {
             <Link className="nav-link" to="/atividade10">Semana 3</Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" to="/semana4">Semana 4</Link>
+            <Link className="nav-link" to="/aula11">Aula 11</Link>
+          </li>
+          <li className="nav-item">
+            <Link className="nav-link" to="/semana4">Aula 12</Link>
           </li>
         </ul>
       </div>
