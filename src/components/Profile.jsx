@@ -1,12 +1,14 @@
+// src/components/Profile.jsx
 import React from 'react';
-import styles from './Profile.modules.css';
 
-function Profile(){
-    return (
-        <div>
-            <img src="/images/profile.webp" alt="Pessoa" />
-        </div>
-    );
+function Profile({ name, role, image }) {
+  return (
+    <div style={{ border: '1px solid #ccc', padding: '10px', margin: '10px' }}>
+      <img src={image} alt={`Foto de ${name}`} width="100" />
+      <h3>{name}</h3>
+      <p><strong>Função:</strong> {role}</p>
+    </div>
+  );
 }
 
 export default Profile;

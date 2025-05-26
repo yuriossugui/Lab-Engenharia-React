@@ -14,7 +14,7 @@ function Navbar() {
             <Link className="nav-link" to="/about">Semana 2</Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" to="/atividade10">Semana 3</Link>
+            <Link className="nav-link" to="/aula10">Aula 10</Link>
           </li>
           <li className="nav-item">
             <Link className="nav-link" to="/aula11">Aula 11</Link>
